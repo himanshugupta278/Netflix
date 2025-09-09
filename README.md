@@ -16,4 +16,4 @@ It includes a navigation bar, hero section (banner), and movie rows like Netflix
 (Add screenshot here if you want)
 
 ## 🔗 Live Demo
-[Click here to view](https://yourusername.github.io/netflix-clone/)
+[Click here to view](https://himanshugupta278.github.io/Netflix/)
