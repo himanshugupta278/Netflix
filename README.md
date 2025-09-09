@@ -14,6 +14,7 @@ It includes a navigation bar, hero section (banner), and movie rows like Netflix
 
 ## 🖼️ Screenshot  
 
-![Game Screenshot] (image/Screenshot.png)
+![Game Screenshot](image/Screenshot.png)
+
 ## 🔗 Live Demo
 [Click here to view](https://himanshugupta278.github.io/Netflix/)
