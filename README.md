@@ -3,16 +3,16 @@
 This is a simple **Netflix Clone Project** made with **HTML & CSS**.  
 It includes a navigation bar, hero section (banner), and movie rows like Netflix UI.
 
-## 🚀 Features
+## Features
 - Responsive Navbar  
 - Hero Section with Banner and Buttons  
 - Movie Row with Hover Effect  
 
-## 🛠️ Technologies Used
+## Technologies Used
 - HTML  
 - CSS  
 
-## 🖼️ Screenshot  
+## Screenshot  
 
 ![Game Screenshot](image/Screenshot.png)
 
