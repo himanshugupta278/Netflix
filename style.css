@@ -11,6 +11,19 @@ body {
   color: #fff;
 }
 
+.search-icon {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  
+  transition: color 0.3s;
+}
+
+.search-icon:hover {
+  color: #f5c518;
+}
+
+
 /* Navbar */
 header {
   background: #000;
@@ -28,6 +41,12 @@ nav ul {
   display: flex;
   gap: 20px;
 }
+
+nav ul li {
+  display: flex;
+  align-items: center;
+}
+
 
 nav ul li a {
   color: #fff;
@@ -47,9 +66,14 @@ h1 {
   font-size: 32px;
 }
 
+.movies .movie:nth-child(7) {
+  grid-column: 1 / -1; /* Force new row */
+}
+
 /* Movies grid */
 .movies {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 25px;
   padding: 20px 40px;
@@ -59,6 +83,8 @@ h1 {
 .movie {
   background: #1f1f1f;
   border-radius: 12px;
+  flex: 1 1 calc(16.66% - 25px); /* 6 cards per row */
+  max-width: calc(16.66% - 25px);
   overflow: hidden;
   box-shadow: 0 4px 10px rgba(0,0,0,0.5);
   transition: transform 0.3s, box-shadow 0.3s;
